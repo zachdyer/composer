@@ -15,6 +15,8 @@ problems:
 - Adding dependencies installed via git to a git repo will show them as
   submodules. This is problematic because they are not real submodules, and you
   will run into issues.
+- If your composer packages were installed on linux then it won't work in windows
+  because they use different types of slashes in the file paths.
 
 If you really feel like you must do this, you have a few options:
 
